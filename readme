@@ -1,0 +1,6 @@
+MFTEP for TCR-epitope interaction prediction by fusing the extracted blosum62 features, molecular graph representations, and 3D structure representations of TCRs and epitopes separately.
+We construct sequence features encoder based on self-attention. Graph neural networks are introduced to encode molecular graphs and 3D structures, respectively.
+Then, the encoded representation for each modality is projected to two distinct subspaces, modality-invariant and modality-dependent subspaces.
+Modality-invariant representations learn the commonalities among modalities, while modality-dependent representations learn the specific features of each modality. 
+Then, a self-attention-based module is introduced to fuse the modality-invariant and modality-dependent representations. 
+Finally, a multilayer perceptron (MLP) layer is constructed to combine the fused features of TCRs and epitopes and predict TCR-epitope binding.

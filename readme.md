@@ -1,5 +1,5 @@
 # MFTEP
-MFTEP is a multimodal fusion method to predict TCRepitope interactions by fusing the sequence features, molecular graph features, and 3D structure features of TCRs and epitopes.
+MFTEP is a multimodal fusion method to predict TCR-epitope interactions by fusing the sequence features, molecular graph features, and 3D structure features of TCRs and epitopes.
 
 # Dependencies
 MFTEP is writen in Python based on Pytorch. The required software dependencies are listed below:
